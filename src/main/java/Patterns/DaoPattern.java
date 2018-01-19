@@ -4,6 +4,7 @@ public class DaoPattern {
     static Data  data = new FileSys();
     public static void main(String[] args) {
         System.out.println(data.getData());
+
     }
 }
 interface Data{
