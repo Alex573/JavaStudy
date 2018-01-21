@@ -1,4 +1,4 @@
-package Java8;
+package java8;
 
 
 public class DefaultStaticInter  implements A{

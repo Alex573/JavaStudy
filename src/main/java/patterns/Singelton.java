@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 
 public class Singelton {
     public static void main(String[] args) {

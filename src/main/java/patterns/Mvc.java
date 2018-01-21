@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 
 public class Mvc {
     public static void main(String[] args) {

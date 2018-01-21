@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 
 public class DaoPattern {
     static Data  data = new FileSys();
