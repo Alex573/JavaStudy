@@ -10,6 +10,10 @@
         <property name="swow_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping resource="user.cfg.xml" />
+        <mapping class="hibernatet.models.User" />
+        <mapping class="hibernatet.models.Role" />
+        <mapping class="hibernatet.models.Order" />
+        <mapping class="hibernatet.models.Product" />
+        <mapping class="hibernatet.models.ProductCategory" />
     </session-factory>
 </hibernate-configuration>
