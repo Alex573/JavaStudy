@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Facadedles {
-    public static void main(String[] args) throws IOException {
+    public  static void main(String[] args) throws IOException {
         FileReadFacade readFacade = new FileReadFacade();
         System.out.println(readFacade.readerFile("temp.txt"));
     }
