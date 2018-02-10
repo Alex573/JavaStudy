@@ -25,7 +25,7 @@ abstract class FileDecorater implements FileStream{
     public abstract void read();
 }
 class FileBufferefReader extends FileDecorater{
-    public FileBufferefReader(FileStream fileStream) {
+    FileBufferefReader(FileStream fileStream) {
         super(fileStream);
     }
 
